@@ -2,33 +2,45 @@
 <body>
 <style>
 .zoom {
-  padding: 50px;
-  transition: transform .2s;
-  width: 100px;
-  height: 100px;
-  margin: 10;
-  display: inline-block;
+	background-color: yellow;
+	padding: 50px;
+	transition: transform .2s;
+	width: 100px;
+	height: 100px;
+	margin: 10;
+	display: inline-block;
 }
-
+.zoom2 {
+	background-color: lightblue;
+	padding: 50px;
+	transition: transform .2s;
+	width: 100px;
+	height: 100px;
+	margin: 10;
+	display: inline-block;
+	transform: rotate(4deg);
+}
 .zoom:hover {
-  transform: scale(1.1);
+  	transform: scale(1.1);
 }
-
-#note1 {
+.zoom:hover {
+	transform: scale(1.1);
+}
+/* #note1 {
 	background-color: yellow;
 	transform: rotate(4deg);
 }
 #note2 {
 	background-color: lightblue;
 	transform: rotate(-4deg);
-}
+} */
 </style>
 
 <div class="bigger">
 	<div class="zoom" id="note1">
 		Note 1
 	</div>
-	<div class="zoom" id="note2">
+	<div class="zoom2" id="note2">
 		Note 2
 	</div>
 	<div class="zoom" id="note3">
