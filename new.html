@@ -1,17 +1,21 @@
 <html>
 <body>
 <style>
+body {
+	background-color: skyblue;
+}
 .zoom {
-	background-color: yellow;
+	background-color: pink;
 	padding: 50px;
 	transition: transform .2s;
 	width: 100px;
 	height: 100px;
 	margin: 10;
 	display: inline-block;
+	transform: rotate(-4deg);
 }
 .zoom2 {
-	background-color: lightblue;
+	background-color: wheat;
 	padding: 50px;
 	transition: transform .2s;
 	width: 100px;
@@ -23,8 +27,17 @@
 .zoom:hover {
   	transform: scale(1.1);
 }
-.zoom:hover {
+.zoom2:hover {
 	transform: scale(1.1);
+}
+a {
+	transform: rotate(5deg);
+	background-color: lightpink;
+	display: inline-block;
+	padding: 50px;
+	width: 100px;
+	height: 100px;
+	margin: 10;
 }
 /* #note1 {
 	background-color: yellow;
@@ -36,7 +49,6 @@
 } */
 </style>
 
-<div class="bigger">
 	<div class="zoom" id="note1">
 		Note 1
 	</div>
@@ -46,6 +58,9 @@
 	<div class="zoom" id="note3">
 		Note 3
 	</div>
-</div>
+	<div class="zoom2">
+		Note 4 
+	</div>
+
 </body>
 </html>
