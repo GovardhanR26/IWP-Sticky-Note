@@ -1,0 +1,36 @@
+<html>
+<body>
+<style>
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 10;
+  display: inline-block;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+#note1 {
+	background-color: yellow;
+	transform: rotate(4deg);
+}
+#note2 {
+	background-color: lightblue;
+	transform: rotate(-4deg);
+}
+</style>
+
+<div class="bigger">
+	<div class="zoom" id="note1">
+		Note 1
+	</div>
+	<div class="zoom" id="note2">
+		Note 2
+	</div>
+</div>
+</body>
+</html>
