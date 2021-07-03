@@ -1,66 +1,30 @@
 <html>
+	<head>
+		<title>
+			Sticky Notes
+		</title>
+		<link rel="stylesheet" href="mainStyle.css"/>
+	</head>
 <body>
-<style>
-body {
-	background-color: skyblue;
-}
-.zoom {
-	background-color: pink;
-	padding: 50px;
-	transition: transform .2s;
-	width: 100px;
-	height: 100px;
-	margin: 10;
-	display: inline-block;
-	transform: rotate(-4deg);
-}
-.zoom2 {
-	background-color: wheat;
-	padding: 50px;
-	transition: transform .2s;
-	width: 100px;
-	height: 100px;
-	margin: 10;
-	display: inline-block;
-	transform: rotate(4deg);
-}
-.zoom:hover {
-  	transform: scale(1.1);
-}
-.zoom2:hover {
-	transform: scale(1.1);
-}
-a {
-	transform: rotate(5deg);
-	background-color: lightpink;
-	display: inline-block;
-	padding: 50px;
-	width: 100px;
-	height: 100px;
-	margin: 10;
-}
-/* #note1 {
-	background-color: yellow;
-	transform: rotate(4deg);
-}
-#note2 {
-	background-color: lightblue;
-	transform: rotate(-4deg);
-} */
-</style>
-
-	<div class="zoom" id="note1">
-		Note 1
+	<div class="odd_note" id="note1">
+		<p><span class="note_title"> Note 1 </span></p>
+		<textarea rows="7" cols="23" class="odd_textarea" id="input_note"></textarea>
 	</div>
-	<div class="zoom2" id="note2">
-		Note 2
+	<div class="even_note" id="note2">
+		<p><span class="note_title"> Note 2 </span></p>
+		<textarea rows="7" cols="23" class="even_textarea" id="input_note"></textarea>
 	</div>
-	<div class="zoom" id="note3">
-		Note 3
+	<div class="odd_note" id="note3">
+		<p><span class="note_title"> Note 3 </span></p>
+		<textarea rows="7" cols="23" class="odd_textarea" id="input_note"></textarea>
 	</div>
-	<div class="zoom2">
-		Note 4 
+	<div class="even_note">
+		<p><span class="note_title"> Note 4 </span></p>
+		<textarea rows="7" cols="23" class="even_textarea" id="input_note"></textarea> 
 	</div>
-
+	<div class="odd_note">
+		<p><span class="note_title"> Note 5 </span></p>
+		<textarea rows="7" cols="23" class="odd_textarea" id="input_note"></textarea>
+	</div>
 </body>
 </html>

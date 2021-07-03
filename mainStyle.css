@@ -1,9 +1,57 @@
-#notes1 {
-    background-color: aquamarine;
-    margin: 0%;
+body {
+	background-color: skyblue;
+}
+.odd_note {
+	background-color: pink;
+	padding: 10px;
+	transition: transform .2s;
+	width: 200px;
+	height: 200px;
+	margin: 10;
+	display: inline-block;
+	transform: rotate(-4deg);
+}
+.even_note {
+	background-color: wheat;
+	padding: 10px;
+	transition: transform .2s;
+	width: 200px;
+	height: 200px;
+	margin: 10;
+	display: inline-block;
+	transform: rotate(4deg);
+}
+.odd_note:hover {
+  	transform: scale(1.1);
+}
+.even_note:hover {
+	transform: scale(1.1);
+}
+.note_title {
+    font-family: cursive;
+}
+.odd_textarea {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	/* border-style: dotted; */
+	background-color: pink;
+	resize: none;
+  }
+.odd_textarea:focus {
+	outline: none;
 }
 
-p {
-    background-color: bisque;
-    margin: 20%;
+.even_textarea {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	/* border-style: dotted; */
+	background-color: wheat;
+	resize: none;
+}
+.even_textarea:focus {
+	outline: none;
 }
