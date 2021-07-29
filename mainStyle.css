@@ -32,6 +32,7 @@ body {
     font-family: cursive;
 }
 .odd_textarea {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	border-top-style: hidden;
 	border-right-style: hidden;
 	border-left-style: hidden;
