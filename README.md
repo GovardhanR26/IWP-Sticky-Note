@@ -1,2 +1,3 @@
 # IWP-Sticky-Note
-To create a simple web-page which works like a board of sticky notes. On mouse hover, zoom a bit. Must also have option to insert a new note.
+Stick-It
+A simple sticky note webpage. Dynamically add and delete notes.
