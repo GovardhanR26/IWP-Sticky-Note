@@ -10,8 +10,6 @@ body {
   width: 200px;
   height: 200px;
   margin: 10;
-  /* display: inline-block; */
-  /* added this */
   float: left;
   transform: rotate(-4deg);
 }
@@ -23,8 +21,6 @@ body {
   width: 200px;
   height: 200px;
   margin: 10;
-  /* display: inline-block; */
-  /* added this */
   float: left;
   transform: rotate(4deg);
 }
@@ -43,14 +39,12 @@ body {
 }
 
 .odd_textarea {
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-family: Garamond;
   font-size: medium;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
-  /* border-style: dotted; */
   background-color: pink;
   resize: none;
   text-align: left;
@@ -67,7 +61,6 @@ body {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
-  /* border-style: dotted; */
   background-color: aquamarine;
   resize: none;
 }
