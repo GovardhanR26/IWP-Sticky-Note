@@ -1,5 +1,5 @@
 body {
-  background-color: skyblue;
+  background-color: goldenrod;
   position: relative;
 }
 
@@ -10,27 +10,33 @@ body {
   width: 200px;
   height: 200px;
   margin: 10;
-  display: inline-block;
+  /* display: inline-block; */
+  /* added this */
+  float: left;
   transform: rotate(-4deg);
 }
 
 .even_note {
-  background-color: wheat;
+  background-color: aquamarine;
   padding: 10px;
   transition: transform 0.2s;
   width: 200px;
   height: 200px;
   margin: 10;
-  display: inline-block;
+  /* display: inline-block; */
+  /* added this */
+  float: left;
   transform: rotate(4deg);
 }
 
 .odd_note:hover {
   transform: scale(1.1);
+  box-shadow: 5px 5px gray;
 }
 
 .even_note:hover {
   transform: scale(1.1);
+  box-shadow: 5px 5px gray;
 }
 .note_title {
   font-family: cursive;
@@ -38,7 +44,8 @@ body {
 
 .odd_textarea {
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-  font-family: "Monotype Corsiva";
+  font-family: Garamond;
+  font-size: medium;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
@@ -46,6 +53,7 @@ body {
   /* border-style: dotted; */
   background-color: pink;
   resize: none;
+  text-align: left;
 }
 
 .odd_textarea:focus {
@@ -53,13 +61,14 @@ body {
 }
 
 .even_textarea {
-  font-family: "Bradley Hand ITC";
+  font-family: Garamond;
+  font-size: medium;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
   /* border-style: dotted; */
-  background-color: wheat;
+  background-color: aquamarine;
   resize: none;
 }
 
@@ -74,13 +83,19 @@ body {
 }
 
 .delete-icon {
-  align-self: baseline;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .delete-icon:hover {
   transform: scale(1.5);
+  opacity: 0.5;
 }
-
+#add_note_image {
+  bottom: 10px;
+  right: 10px;
+}
 #add_note_image:hover {
   transform: scale(1.2);
 }
